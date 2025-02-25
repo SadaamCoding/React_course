@@ -4,6 +4,7 @@ import Props from './Components/Props'
 import State from './Components/State'
 import UseEffect from './Components/UseEffect'
 import Shop_api from './Components/Shop_api'
+import Reduser from './Components/Usereducer/Reduser'
 
 export default function App() {
   return (
@@ -14,7 +15,8 @@ export default function App() {
       <Props name='sadaam' des='sadaam waa arday dhigta jamacada Jamhuuriya'/> */}
       {/* <State/> */}
       {/* <UseEffect/> */}
-      <Shop_api/>
+      {/* <Shop_api/> */}
+      <Reduser/>
       
     </div>
   )
