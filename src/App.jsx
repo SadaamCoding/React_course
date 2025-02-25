@@ -2,6 +2,7 @@ import React from 'react'
 import Reuse_button from './Components/Ui/reuse_button'
 import Props from './Components/Props'
 import State from './Components/State'
+import UseEffect from './Components/UseEffect'
 
 export default function App() {
   return (
@@ -10,7 +11,8 @@ export default function App() {
       <Reuse_button/>
       <Reuse_button/>
       <Props name='sadaam' des='sadaam waa arday dhigta jamacada Jamhuuriya'/> */}
-      <State/>
+      {/* <State/> */}
+      <UseEffect/>
       
     </div>
   )
